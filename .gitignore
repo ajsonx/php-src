@@ -232,4 +232,5 @@ win32/wsyslog.h
 
 
 ext/swoole-src
+ext/test
 .DS_Store
