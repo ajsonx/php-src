@@ -234,3 +234,7 @@ win32/wsyslog.h
 !ext/mbstring/oniguruma.patch
 .idea/
 cmake-build-debug/
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+*.cbp
