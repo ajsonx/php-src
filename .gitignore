@@ -233,3 +233,4 @@ win32/wsyslog.h
 !ext/fileinfo/libmagic.patch
 !ext/mbstring/oniguruma.patch
 .idea/
+cmake-build-debug/
