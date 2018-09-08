@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
-project(curl)
+project(php)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -33,7 +33,7 @@ set(SOURCE_FILES
         sapi/fpm/fpm/zlog.c
         )
 
-add_executable(curl ${SOURCE_FILES})
+add_executable(php ${SOURCE_FILES})
 
 #定义php源码路径，这里根据自己的真实路径来更改
 set(PHP_SOURCE /Users/hexi/Develop/php-src)
