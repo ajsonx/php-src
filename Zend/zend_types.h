@@ -180,6 +180,15 @@ struct _zval_struct {
 	zend_value        value;			/* value */
 	union {
 		struct {
+		    //这个宏的作用是简化赋值, 它会保证在大端或者小端的机器上,
+		    //它定义的字段都按照一样顺序排列存储, 从而我们在赋值的时候,
+		    //不需要对它的字段分别赋值, 而是可以统一赋值,
+		    //arr1.u.flags = arr2.u.flags;
+		    //相当于以下
+		    //arr1.u.v.flags                    = arr2.u.v.flags;
+            //arr1.u.v.nApplyCount           = arr2.u.v.nApplyCount;
+            //arr1.u.v.nIteratorsCount     = arr2.u.v.nIteratorsCount;
+            //arr1.u.v.reserve                = arr2.u.v.reserve;
 			ZEND_ENDIAN_LOHI_4(
 				zend_uchar    type,			/* active type */
 				zend_uchar    type_flags,
