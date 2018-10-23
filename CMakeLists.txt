@@ -12,7 +12,6 @@ set(SOURCE_FILES
         main/getopt.c
         main/internal_functions.c
         main/internal_functions_cli.c
-        main/internal_functions_win32.c
         main/main.c
         main/mergesort.c
         main/network.c
@@ -99,7 +98,6 @@ set(SOURCE_FILES
         ext/standard/dir.c
         ext/standard/dl.c
         ext/standard/dns.c
-        ext/standard/dns_win32.c
         ext/standard/exec.c
         ext/standard/file.c
         ext/standard/filestat.c
@@ -120,7 +118,6 @@ set(SOURCE_FILES
         ext/standard/lcg.c
         ext/standard/levenshtein.c
         ext/standard/link.c
-        ext/standard/link_win32.c
         ext/standard/mail.c
         ext/standard/math.c
         ext/standard/md5.c
