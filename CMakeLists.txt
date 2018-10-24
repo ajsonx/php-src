@@ -150,6 +150,49 @@ set(SOURCE_FILES
         ext/standard/var.c
         ext/standard/var_unserializer.c
         ext/standard/versioning.c
+
+        ext/mysqlnd/mysqlnd_alloc.c
+        ext/mysqlnd/mysqlnd_auth.c
+        ext/mysqlnd/mysqlnd_block_alloc.c
+        ext/mysqlnd/mysqlnd_charset.c
+        ext/mysqlnd/mysqlnd_commands.c
+        ext/mysqlnd/mysqlnd_connection.c
+        ext/mysqlnd/mysqlnd_debug.c
+        ext/mysqlnd/mysqlnd_driver.c
+        ext/mysqlnd/mysqlnd_ext_plugin.c
+        ext/mysqlnd/mysqlnd_loaddata.c
+        ext/mysqlnd/mysqlnd_net.c
+        ext/mysqlnd/mysqlnd_plugin.c
+        ext/mysqlnd/mysqlnd_protocol_frame_codec.c
+        ext/mysqlnd/mysqlnd_ps.c
+        ext/mysqlnd/mysqlnd_ps_codec.c
+        ext/mysqlnd/mysqlnd_read_buffer.c
+        ext/mysqlnd/mysqlnd_result.c
+        ext/mysqlnd/mysqlnd_result_meta.c
+        ext/mysqlnd/mysqlnd_reverse_api.c
+        ext/mysqlnd/mysqlnd_statistics.c
+        ext/mysqlnd/mysqlnd_vio.c
+        ext/mysqlnd/mysqlnd_wireprotocol.c
+        ext/mysqlnd/php_mysqlnd.c
+
+        ext/mysqli/mysqli.c
+        ext/mysqli/mysqli_api.c
+        ext/mysqli/mysqli_driver.c
+        ext/mysqli/mysqli_embedded.c
+        ext/mysqli/mysqli_exception.c
+        ext/mysqli/mysqli_fe.c
+        ext/mysqli/mysqli_nonapi.c
+        ext/mysqli/mysqli_prop.c
+        ext/mysqli/mysqli_report.c
+        ext/mysqli/mysqli_result_iterator.c
+        ext/mysqli/mysqli_warning.c
+
+        ext/pdo/pdo.c
+        ext/pdo/pdo_dbh.c
+        ext/pdo/pdo_sql_parser.c
+        ext/pdo/pdo_sqlstate.c
+        ext/pdo/pdo_stmt.c
+
         )
 add_executable(php ${SOURCE_FILES})
 
