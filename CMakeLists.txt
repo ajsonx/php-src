@@ -197,6 +197,11 @@ set(SOURCE_FILES
         ext/pdo_mysql/mysql_statement.c
         ext/pdo_mysql/pdo_mysql.c
 
+        ext/curl/curl_file.c
+        ext/curl/interface.c
+        ext/curl/multi.c
+        ext/curl/share.c
+
         )
 add_executable(php ${SOURCE_FILES})
 
