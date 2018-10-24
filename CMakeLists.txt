@@ -4,6 +4,7 @@ project(php)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
+        sapi/cli/php_cli.c
         main/SAPI.c
         main/alloca.c
         main/explicit_bzero.c
