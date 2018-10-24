@@ -193,6 +193,10 @@ set(SOURCE_FILES
         ext/pdo/pdo_sqlstate.c
         ext/pdo/pdo_stmt.c
 
+        ext/pdo_mysql/mysql_driver.c
+        ext/pdo_mysql/mysql_statement.c
+        ext/pdo_mysql/pdo_mysql.c
+
         )
 add_executable(php ${SOURCE_FILES})
 
