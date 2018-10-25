@@ -206,7 +206,7 @@ set(SOURCE_FILES
         )
 add_executable(php ${SOURCE_FILES})
 
-set(PHP_SOURCE ./)
+set(PHP_SOURCE /Users/hexi/Develop/php-src)
 include_directories(${PHP_SOURCE}/main)
 include_directories(${PHP_SOURCE}/Zend)
 include_directories(${PHP_SOURCE}/sapi)
