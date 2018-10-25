@@ -1,3 +1,6 @@
 [submodule "ext/vld"]
 	path = ext/vld
 	url = https://github.com/derickr/vld.git
+[submodule "ext/swoole"]
+	path = ext/swoole
+	url = https://github.com/swoole/swoole-src.git
