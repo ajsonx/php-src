@@ -1,0 +1,3 @@
+[submodule "ext/vld"]
+	path = ext/vld
+	url = https://github.com/derickr/vld.git
